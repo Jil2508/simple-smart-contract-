@@ -3,7 +3,6 @@ pragma solidity ^0.8.0;
 
 contract SimpleStorage {
     uint256 private storedValue;
-
     event ValueChanged(uint256 newValue);
 
     function setValue(uint256 _value) public {
